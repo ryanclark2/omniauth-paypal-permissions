@@ -29,6 +29,8 @@ Rails.application.config.middleware.use OmniAuth::Builder do
     }, scope: ["ACCESS_BASIC_PERSONAL_DATA","TRANSACTION_SEARCH"]
 end
 ```
+### NOTE: You need to leave ACCESS_BASIC_PERSONAL_DATA in the scope for the remaining requests. 
+
 
 ## Attributes and Scopes
 
